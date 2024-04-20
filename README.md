@@ -15,9 +15,9 @@ The dataset is public available for research. Please include detailed relevant c
 _____________________________________________________
 
 
-Data Description
+## Data Description
 
-The dataset consists of multiple columns, each representing different aspects of movies and their metadata. Below is a description of the key columns included in the dataset(excluding id):
+### The dataset consists of multiple columns, each representing different aspects of movies and their metadata. Below is a description of the key columns included in the dataset(excluding id):
 
 	1- 	director_name: 			Name of the movie director.
 	2-	num_critic_for_reviews: 	Number of critic reviews.
@@ -51,7 +51,7 @@ The dataset consists of multiple columns, each representing different aspects of
 _____________________________________________________
 
 
-**    1. train_dataset.csv & test_dataset.csv
+###   1. train_dataset.csv & test_dataset.csv
 
 	- train_dataset.csv file contains movie features and the target label for training instances.
 	- Number of instances: 3004
@@ -64,7 +64,7 @@ _____________________________________________________
 		gross genres actor_1_name movie_title num_voted_users cast_total_facebook_likes actor_3_name facenumber_in_poster plot_keywords num_user_for_reviews
 		language country content_rating title_year actor_2_facebook_likes movie_facebook_likes title_embedding average_degree_centrality imdb_score_binned	
 		
-**    2. features_countvec.zip
+###    2. features_countvec.zip
 
 	Description: Zipped file containing CountVectorizer features for director names, actor names, and possibly other text features for both training and test datasets.
 	
@@ -76,7 +76,7 @@ _____________________________________________________
 			- train_countvec_features_actor_2_name.npy
 			- test_countvec_features_actor_2_name.npy		
 
-**    3. features_doc2vec.zip
+###    3. features_doc2vec.zip
 
 	Description: Zipped file containing Doc2Vec features for plot keywords, genres, and other text features for both training and test datasets.
 	
@@ -87,7 +87,7 @@ _____________________________________________________
 			- test_doc2vec_features_genre.npy
 
 
-**    4. features_fasttext.zip
+###    4. features_fasttext.zip
 
 	Description: Zipped file containing FastText embeddings for movie titles for both training and test datasets.
 
@@ -98,9 +98,9 @@ _____________________________________________________
 _____________________________________________________
 
 
-Data Preprocessing
+## Data Preprocessing
 
-The dataset includes preprocessing and additional features: 
+### The dataset includes preprocessing and additional features: 
 
 	CountVectorizer: 	Applied to the names of the first, and second listed actors, as well as the director's name, to transform these categorical text data into numerical format based on word counts.
 	Doc2Vec: 		Utilized for the genres and plot keywords columns to generate meaningful vector representations of these textual features.
@@ -111,7 +111,7 @@ The dataset includes preprocessing and additional features:
 The npy files for the extracted features have been provided. 
 
 
-Model Libraries
+## Model Libraries
 
     ----->  FastText 	    -> https://radimrehurek.com/gensim/models/fasttext.html
     ----->  CountVectorizer -> https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html
