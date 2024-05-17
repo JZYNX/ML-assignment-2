@@ -14,6 +14,34 @@ Additionally, this version of the dataset incorporates advanced text processing 
 The dataset is public available for research. Please include detailed relevant citations. 
 _____________________________________________________
 
+## Running Code in Jupyter Notebook
+This README provides instructions on how to run code contained within a Jupyter Notebook file. Additionally, it explains how to reference predictions stored in a directory named "predictions".
+
+## Prerequisites
+
+Before running the code in a Jupyter Notebook, ensure that you have the following installed:
+
+- [Jupyter Notebook](https://jupyter.org/install)
+
+You can install Jupyter Notebook using pip:
+`pip install jupyter`
+
+## Running Jupyter Notebook
+
+1. Open your terminal or command prompt.
+2. Navigate to the directory where your Jupyter Notebook file is located.
+3. Run the following command:
+`jupyter notebook`
+
+This will open up a new tab in your default web browser displaying the Jupyter Notebook dashboard.
+
+## Executing Code Cells
+
+1. Once inside the Jupyter Notebook dashboard, navigate to the directory containing the notebook file.
+2. Click on the notebook file to open it.
+3. To execute a code cell, select it and then either click the "Run" button in the toolbar or press "Shift + Enter" on your keyboard.
+
+Predictions of each model can be found in the 'predictions' directory
 
 ## Data Description
 
